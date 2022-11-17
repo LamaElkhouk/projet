@@ -1,6 +1,12 @@
+
 const Entete = () => {
+    const currentDay= new Date().getDate();
+    const currentMonth =new Date().getMonth();
+    const currentYear = new Date().getFullYear();
     return ( 
-        <div>entete</div>
+        <div> 
+            <p>entete {currentDay} {currentMonth} {currentYear}</p>            
+            </div>
     );
 }
 
