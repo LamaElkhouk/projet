@@ -4,3 +4,15 @@
 .lienActif{
     color:blueviolet;
 }
+.nom-jour{
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    color:azure;
+}
+.date-jour{
+    margin: 0.5rem;
+    height: 50px;
+    padding: 1rem;
+    border-radius: 50%;
+}
